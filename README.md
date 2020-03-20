@@ -11,7 +11,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 - New WSRest connector  
 
 # Instructions
-- See specific instructions attached with each template
+- See specific instructions provided with each template
 
 # License
 Copyright 2019 SMA Technologies
