@@ -11,8 +11,8 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 - New WSRest connector
 - In GLPI enable API REST (Configuration/General/Api)
 - Create two new Global Properties : 
-  - [[GLPI_API_PATH]] : your GLPI API url
-  - [[GLPI_User-Token]] : User authorization API (Administration/user/username) Regenerate API Token
+  - [[GLPI-API-PATH]] : your GLPI API url
+  - [[GLPI-User-Token]] : User authorization API (Administration/user/username) Regenerate API Token
 
 # Instructions
 - Download the .json file
