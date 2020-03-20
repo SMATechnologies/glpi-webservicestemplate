@@ -2,11 +2,11 @@
   "templateid" : null,
   "steps" : [ {
     "function" : "GET",
-    "url" : "[[GLPI_API_PATH]]/initSession/",
+    "url" : "[[GLPI-API-PATH]]/initSession/",
     "request" : {
       "headers" : [ {
         "attribute" : "Authorization",
-        "value" : " user_token [[GLPI_User-Token]]"
+        "value" : " user_token [[GLPI-User-Token]]"
       } ],
       "body" : null,
       "fileName" : null
@@ -23,7 +23,7 @@
     }
   }, {
     "function" : "POST",
-    "url" : "[[GLPI_API_PATH]]/ticket/",
+    "url" : "[[GLPI-API-PATH]]/ticket/",
     "request" : {
       "headers" : [ {
         "attribute" : "Session-Token",
@@ -41,7 +41,7 @@
     }
   }, {
     "function" : "GET",
-    "url" : "[[GLPI_API_PATH]]/killSession/",
+    "url" : "[[GLPI-API-PATH]]/killSession/",
     "request" : {
       "headers" : [ {
         "attribute" : "Session-Token",
