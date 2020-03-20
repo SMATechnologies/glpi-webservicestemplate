@@ -7,7 +7,8 @@ No Support and No Warranty are provided by SMA Technologies for this project and
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
 # Prerequisites
-
+- OpCon V19.1
+- New WSRest connector  
 
 # Instructions
 
