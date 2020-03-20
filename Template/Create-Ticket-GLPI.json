@@ -6,7 +6,7 @@
     "request" : {
       "headers" : [ {
         "attribute" : "Authorization",
-        "value" : " user_token [[User-Token]]"
+        "value" : " user_token [[GLPI_User-Token]]"
       } ],
       "body" : null,
       "fileName" : null
