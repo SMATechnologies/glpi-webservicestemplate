@@ -1,4 +1,4 @@
-# Project Name
+# GLPI Web Services Connector 
 GLPI Webservices
 
 # Disclaimer
