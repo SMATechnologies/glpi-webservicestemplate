@@ -1,4 +1,4 @@
-# GLPI Web Services Connector 
+# GLPI Web Services Connector
 This is a template to automatically create incident tickets in GLPI, from OpCon
 
 # Disclaimer
@@ -8,10 +8,17 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Prerequisites
 - OpCon V19.1
-- Web Services Connector   
+- Web Services Connector 
+- In GLPI enable API REST (Configuration/General/Api)
+- Create two new Global Properties : 
+  - [[GLPI-API-PATH]] : your GLPI API url
+  - [[GLPI-User-Token]] : User authorization API (Administration/user/username) Regenerate API Token
 
 # Instructions
-- See specific instructions provided with each template
+- Download the .json file
+- Create your Opcon job Type = Windows, Sub-type = WSRest
+- Import Template, choose your .json 
+- Select step2 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
 
 # License
 Copyright 2019 SMA Technologies
