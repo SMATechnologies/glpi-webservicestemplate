@@ -1,5 +1,5 @@
 # GLPI Web Services Connector 
-GLPI Webservices
+This is a template to automatically create incident tickets in GLPI, from OpCon
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -8,7 +8,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Prerequisites
 - OpCon V19.1
-- New WSRest connector  
+- Web Services Connector   
 
 # Instructions
 - See specific instructions provided with each template
