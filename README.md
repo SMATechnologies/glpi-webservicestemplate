@@ -8,7 +8,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Prerequisites
 - OpCon V19.1
-- Web Services Connector 
+- Web Services Connector V 20.0.3
 - In GLPI enable API REST (Configuration/General/Api)
 - Create two new Global Properties : 
   - [[GLPI-API-PATH]] : your GLPI API url
@@ -16,7 +16,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Instructions
 - Download the .json file
-- Create your Opcon job Type = Windows, Sub-type = WSRest
+- Create your Opcon job Type = Windows, Sub-type = Web Services
 - Import Template, choose your .json 
 - Select step2 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
 
